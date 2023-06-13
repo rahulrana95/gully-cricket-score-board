@@ -1,3 +1,78 @@
+.live-screening-scorecard{
+  display: flex;
+  justify-content: space-between;
+  padding: 4px;
+  color: white;
+  border: 1px;
+  border-radius: 100px;
+  margin: 30px 0px;
+  align-items: center;
+  font-weight: 700;
+
+
+  .batsmen {
+    display: flex;
+    flex: 1;
+    justify-content: flex-start;
+
+    .batsman{
+      width: 50%;
+
+      
+    }
+  }
+  .batsman-bowl {
+    font-size: 11px;
+  }
+
+  .bowlers-bowl {
+    margin-left: 8px;
+  }
+
+  .team-score {
+    width: 40%;
+  }
+
+  .bowerLSS {
+    padding: 0px;
+    display: block;
+  }
+
+  .winning-message {
+    color: #e0fa46;
+  }
+
+  .left {
+    width: 68%;
+    display: flex;
+    align-items: center;
+  }
+
+  .right {
+    width: 28%;
+    display: flex;
+    align-items: center;
+
+    .bowlerName {
+      margin-right: 12px;
+    }
+  }
+
+  .primaryBg {
+    background-color: #2054c3;
+    color: white;
+    padding: 4px 8px;
+  }
+
+  .secondaryBg {
+    background-color: white;
+    color: #2054c3;
+    padding: 4px 8px;
+  }
+}
+
+
+
 .inning {
   background: #3f51b5;
   color: white;
